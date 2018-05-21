@@ -6,3 +6,20 @@ Email conversations are the primary mode of communication in enterprises. The em
 Link to the paper: https://peopleswksh.github.io/pdf/PEOPLES11.pdf
 
 Link to the Enron FFP dataset: http://bit.ly/2FpPqwF
+
+If you use the dataset in your research, please cite: 
+
+1) @inproceedings{chhaya2018frustrated,
+  title={Frustrated, Polite or Formal: Quantifying Feelings and Tone in Emails},
+  author={Chhaya, Niyati and Chawla, Kushal and Goyal, Tanya and Chanda, Projjal and Singh, Jaya},
+  booktitle={Proceedings of the Second Workshop on Computational Modeling of People’s Opinions, Personality, and Emotions in Social Media, NAACL HLT},
+  pages={76--86},
+  year={2018},
+  organization={Association for Computational Linguistics}
+}
+
+2) @article{cohen2009enron,
+  title={Enron email dataset},
+  author={Cohen, William W},
+  year={2009}
+}
