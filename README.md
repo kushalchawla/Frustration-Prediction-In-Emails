@@ -6,9 +6,13 @@ Email conversations are the primary mode of communication in enterprises. The em
 Link to the paper: https://peopleswksh.github.io/pdf/PEOPLES11.pdf
 
 Link to the Enron FFP dataset: https://bit.ly/2IAxPab
+
 Instructions to use: 
+
   For Python 3: 
+  
   import pandas as pd
+  
   df = pd.read_csv("./enron-FFP.csv") #assuming the dataset is downloaded in the same directory as the code file.
   
 
