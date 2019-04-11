@@ -5,11 +5,24 @@ Email conversations are the primary mode of communication in enterprises. The em
 
 Link to the paper: https://peopleswksh.github.io/pdf/PEOPLES11.pdf
 
-Link to the Enron FFP dataset: http://bit.ly/2FpPqwF
+Link to the Enron FFP dataset: https://bit.ly/2IAxPab
+Instructions to use: 
+  For Python 3: 
+  import pandas as pd
+  df = pd.read_csv("./enron-FFP.csv") #assuming the dataset is downloaded in the same directory as the code file.
+  
 
 If you use the dataset in your research, please cite: 
 
-1) @inproceedings{chhaya2018frustrated,
+1) @inproceedings{khosla2018aff2vec,
+  title={Aff2Vec: Affect--Enriched Distributional Word Representations},
+  author={{Khosla}, S. and {Chhaya}, N. and {Chawla}, K.},
+  booktitle={Proceedings of COLING 2018, the 27th International Conference on Computational Linguistics},
+  pages={2204--2218},
+  year={2018}
+}
+
+2) @inproceedings{chhaya2018frustrated,
   title={Frustrated, Polite or Formal: Quantifying Feelings and Tone in Emails},
   author={Chhaya, Niyati and Chawla, Kushal and Goyal, Tanya and Chanda, Projjal and Singh, Jaya},
   booktitle={Proceedings of the Second Workshop on Computational Modeling of People’s Opinions, Personality, and Emotions in Social Media, NAACL HLT},
@@ -18,7 +31,7 @@ If you use the dataset in your research, please cite:
   organization={Association for Computational Linguistics}
 }
 
-2) @article{cohen2009enron,
+3) @article{cohen2009enron,
   title={Enron email dataset},
   author={Cohen, William W},
   year={2009}
